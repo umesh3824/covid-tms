@@ -43,7 +43,7 @@ if(isset($_POST['login']))
 
 </head>
 
-<body class="bg-gradient-primary">
+<body class="bg-gradient-secondary">
 
     <div class="container">
 
@@ -57,23 +57,22 @@ if(isset($_POST['login']))
                     <div class="card-body p-0">
                         <!-- Nested Row within Card Body -->
 <form name="login" method="post">
-                        <div class="row">
-                            <div class="col-lg-6 d-none d-lg-block bg-login-image"></div>
+                        <div class="row justify-content-center">
                             <div class="col-lg-6">
                                 <div class="p-5">
                                     <div class="text-center">
                                         <h1 class="h4 text-gray-900 mb-4">Welcome Back!</h1>
                                     </div>
-                                    <form class="user">
+                                    <form class="user" onsubmit="return validate_data()">
                                         <div class="form-group">
-                                            <input type="text" class="form-control" name="username" 
+                                            <input type="email" class="form-control" name="username" 
                                                 id="username" placeholder="Enter username" required="true">
                                         </div>
                                         <div class="form-group">
-                                            <input type="password" class="form-control" name="inputpwd" 
+                                            <input type="password" class="form-control" name="inputpwd"  pattern="^(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])(?=.*[!@#&()–[{}]:;',?/*~$^+=<>]).{8,20}$"
                                                 id="inputpwd" placeholder="Password">
                                         </div>
-                        <input type="submit" name="login" class="btn btn-primary btn-user btn-block" value="login">
+                        <input type="submit" name="login" class="btn btn-secondary btn-user btn-block" value="login">
                                     </form>
                                     <hr>
                                     <div class="text-center">
@@ -109,7 +108,13 @@ if(isset($_POST['login']))
 
     <!-- Custom scripts for all pages-->
     <script src="js/sb-admin-2.min.js"></script>
+<script>
 
+    function validate_data(){
+        alert("fg");
+        return false;
+    }
+</script>
 </body>
 
 </html>

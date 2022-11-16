@@ -21,7 +21,7 @@
 <body id="page-top">
 
   <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
+  <!-- <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
     <div class="container">
       <a class="navbar-brand js-scroll-trigger" href="#page-top">Covid19-TMS</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -53,16 +53,27 @@
         </ul>
       </div>
     </div>
-  </nav>
+  </nav> -->
 
-  <header class="bg-primary text-white">
+  <header class="bg-secondary text-white">
     <div class="container text-center">
       <h1>COVID19-TMS</h1>
       <p class="lead">COVID19 - Testing Management System</p>
+      <a href="new-user-testing.php" class="btn btn-outline-light">Testing</a>
+      <a href="login.php"  class="btn btn-outline-light">Admin</a>
     </div>
   </header>
+  <header class="bg-secondary text-white">
+    <div class="container text-center">
+      <h1></h1>
+      <p class="lead"></p>
+    </div>
+  </header>
+  <header class="bg-secondary text-white">
 
-  <section id="about">
+  </header>
+
+  <!-- <section id="about">
     <div class="container">
       <div class="row">
         <div class="col-lg-8 mx-auto">
@@ -73,9 +84,9 @@
         </div>
       </div>
     </div>
-  </section>
+  </section> -->
 
-  <section id="services" class="bg-light">
+  <!-- <section id="services" class="bg-light">
     <div class="container">
       <div class="row">
         <div class="col-lg-8 mx-auto">
@@ -92,9 +103,9 @@ Reported illnesses have ranged from mild symptoms to severe illness and death</p
         </div>
       </div>
     </div>
-  </section>
+  </section> -->
 
-  <section id="contact">
+  <!-- <section id="contact">
     <div class="container">
       <div class="row">
         <div class="col-lg-8 mx-auto">
@@ -108,15 +119,14 @@ Reported illnesses have ranged from mild symptoms to severe illness and death</p
         </div>
       </div>
     </div>
-  </section>
+  </section> -->
 
   <!-- Footer -->
-  <footer class="py-5 bg-dark">
+  <!-- <footer class="py-5 bg-dark">
     <div class="container">
-      <p class="m-0 text-center text-white">Copyright &copy; Your Website 2020</p>
+      <p class="m-0 text-center text-white">Copyright &copy; Your Website 2023</p>
     </div>
-    <!-- /.container -->
-  </footer>
+  </footer> -->
 
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
